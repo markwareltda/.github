@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://markware.com.br/">
-    <img src="./assets/markware-banner.svg" width="100%" alt="Markware — Software, automação e inteligência para operações que não podem parar." />
+    <img src="./assets/markware-banner.png" width="100%" alt="Markware — Software, automação e inteligência para operações que não podem parar." />
   </a>
 </div>
 
