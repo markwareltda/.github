@@ -1,0 +1,85 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="1220" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A12"/>
+      <stop offset="0.52" stop-color="#101426"/>
+      <stop offset="1" stop-color="#190B2E"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="139" y1="65" x2="425" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7"/>
+      <stop offset="0.45" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="690" y1="45" x2="1190" y2="315" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7" stop-opacity="0.56"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1090 88) rotate(145) scale(390 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="26" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="26" fill="url(#grid)"/>
+  <rect width="1280" height="360" rx="26" fill="url(#glow)"/>
+
+  <g opacity="0.75">
+    <path d="M760 38C868 80 893 134 1000 141C1095 147 1146 114 1264 174" stroke="url(#line)" stroke-width="2"/>
+    <path d="M720 267C849 214 909 214 1007 248C1094 278 1156 293 1262 245" stroke="url(#line)" stroke-width="2"/>
+    <path d="M850 8C930 87 958 188 938 351" stroke="url(#line)" stroke-width="2"/>
+    <circle cx="1000" cy="141" r="6" fill="#A855F7"/>
+    <circle cx="1007" cy="248" r="6" fill="#6366F1"/>
+    <circle cx="938" cy="210" r="4" fill="#C084FC"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="60" width="238" height="238" rx="58" fill="#120A22" stroke="#8B5CF6" stroke-opacity="0.38" stroke-width="2"/>
+    <rect x="88" y="76" width="206" height="206" rx="48" fill="url(#accent)" fill-opacity="0.13"/>
+
+    <path d="M120 224V133C120 124.716 126.716 118 135 118H153L191 166L229 118H247C255.284 118 262 124.716 262 133V224"
+          stroke="white" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M153 224V165L191 211L229 165V224"
+          stroke="white" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <text x="360" y="137" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="70" font-weight="800" letter-spacing="3">
+      MARKWARE
+    </text>
+
+    <rect x="361" y="160" width="104" height="5" rx="2.5" fill="url(#accent)"/>
+
+    <text x="360" y="207" fill="#E9E7F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">
+      Software, automação e inteligência
+    </text>
+    <text x="360" y="239" fill="#B8B5C8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">
+      para operações que não podem parar.
+    </text>
+
+    <g transform="translate(360,269)">
+      <rect width="122" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <text x="61" y="22" text-anchor="middle" fill="#D8D5E5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">OPEN SOURCE</text>
+
+      <rect x="132" width="126" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <text x="195" y="22" text-anchor="middle" fill="#D8D5E5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">INTEGRAÇÕES</text>
+
+      <rect x="268" width="112" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <text x="324" y="22" text-anchor="middle" fill="#D8D5E5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">HEALTH TECH</text>
+
+      <rect x="390" width="70" height="34" rx="17" fill="#7C3AED" fill-opacity="0.22" stroke="#A855F7" stroke-opacity="0.32"/>
+      <text x="425" y="22" text-anchor="middle" fill="#E9D5FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">AI</text>
+    </g>
+  </g>
+</svg>
